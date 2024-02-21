@@ -74,6 +74,26 @@ FLEX PROPERTIES FOR CONTAINER:
         (a) flex-start: align from the left
         (b) flex-end: align from the right
         (c) center: align at the center 
+
+    4) align-content - it allows you to set the alignment of space between & around the content along the "cross-axis"
+
+        Cross Axis - y
+
+        (a) start: space at the end along the y-axis
+        (b) end: space at the top along the y-axis
+        (c) center: space at top and end (equal space) along the y-axis
+        (d) space-evenly: even amount of space in between and around along the y-axis
+        (e) space-around: even amount of space around the content along the y-axis
+        (f) space-between: space between the content along the y-axis
+        
+        Cross Axis - x
+
+        (a) start: space at the end along the x-axis
+        (b) end: space at the top along the x-axis
+        (c) center: space at top and end (equal space) along the x-axis
+        (d) space-evenly: even amount of space in between and around along the x-axis
+        (e) space-around: even amount of space around the content along the x-axis
+        (f) space-between: space between the content along the x-axis
 */  
 
 body{
@@ -339,6 +359,183 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+}
+
+#container26{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#container27{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+#container28{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#container29{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: start;
+}
+
+#container30{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: end;
+}
+
+#container31{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#container32{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+#container33{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+
+#container34{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+#container35{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: start;
+}
+
+#container36{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: end;
+}
+
+#container37{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#container38{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+#container39{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+
+#container40{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
 }
 
 div{
