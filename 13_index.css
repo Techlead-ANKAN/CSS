@@ -1,0 +1,70 @@
+/* 
+background-size : cover/contain/auto;
+
+cover - This will cover the whole area irrespective of the size of the image
+
+contain - this is will prioritize the display of the image which means that suppose, there is a div of size 
+*/
+
+
+
+#div1{
+    margin-left: 35px;
+    background-image: url("images/pic1.jpg");
+    /* background-color: aqua; */
+    height: 200px;
+    width: 356px;
+    display: inline-block;
+}
+
+
+#div2{
+    background-image: url("images/pic2.jpg");
+    /* background-color: aquamarine; */
+    height: 200px;
+    width: 356px;
+    display: inline-block;
+}
+
+
+#div3{
+    background-image: url("images/pic3.jpg");
+    /* background-color:cadetblue; */
+    height: 200px;
+    width: 356px;
+    display: inline-block;
+}
+
+
+#div4{
+    background-image: url("images/pic4.jpg");
+    /* background-color: cornflowerblue; */
+    height: 200px;
+    width: 356px;
+    display: inline-block;
+}
+
+
+#div5{
+    background-image: url("images/pic3.jpg");
+    /* background-color: cornflowerblue; */
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-size: cover;
+}
+
+
+#div6{
+    background-image: url("images/pic2.jpg");
+    /* background-color: cornflowerblue; */
+    background-repeat: no-repeat;
+    border: mediumvioletred 5px solid;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin-left: 50px;
+    background-size: contain;
+}

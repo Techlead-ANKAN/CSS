@@ -1,0 +1,90 @@
+#navbar{
+    height: 40px;
+    background-color: #0f1111;
+    border-radius: 10px;
+    
+}
+
+#logo{
+    font-size: 25px;
+    color: rgb(222, 148, 9);
+    margin-left: 20px;
+}
+
+#acc{
+    color: white;
+    margin-left: 200px;
+
+}
+
+#cart{
+    color: white;
+    margin-left: 200px;
+}
+
+#cont{
+    color: white;
+    margin-left: 200px;
+}
+
+#search{
+    margin-left: 330px;
+}
+
+#btn{
+    padding: 3px;
+    color: white;
+    background-color: rgb(222, 148, 9);
+}
+
+#content{
+    background-color: rgba(17, 149, 186, 0.5);
+    height: 540px;
+    margin-top: 5px;
+    padding-top: 100px;
+
+}
+
+#div1
+{
+    height: 100px;
+    border-style: solid;
+    background-color: rgba(152, 152, 229, 0.5);
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#div2
+{
+    height: 100px;
+    border-style: solid;
+    background-color: rgba(117, 212, 137, 0.5);
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#div3
+{
+    height: 100px;
+    border-style: solid;
+    background-color: rgba(220, 144, 166, 0.5);
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(65, 67, 67, 0.25);
+    padding-right: 100px;
+    width: 92.5%;
+    display: block;
+    height: 50px;
+    text-align: center;
+    padding-top: 27px;
+}

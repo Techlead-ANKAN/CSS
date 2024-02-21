@@ -1,0 +1,72 @@
+/* Positions in CSS: -
+    1) static: It is the default position (top, bottom, left, right, z-index does'nt work for it)
+    
+    2) relative: The element is relative to itself (top, bottom, left, right, z-index work for it)
+
+    3) absolute: The position is relative to its closest positioned ancestor (removed from the flow).
+
+    4) fixed: position is relative to the browser (removed from the flow).
+
+    5) sticky: position based on usetr's scroll position.
+
+  Z-index: - It decides the stack level of the elements when the elements are overlapping. (By default Z-index: 0, it can be set to -1/-2/... or 1/2/.... for priority
+*/
+
+#div1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
+    position: static;
+}
+
+
+#div2{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+    position: relative;
+    right: -1250px;
+    top: 50px;
+    z-index:1;
+}
+
+
+#div3{
+    background-color:cadetblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
+    position: absolute;
+    right: 10px;
+}
+
+
+#div4{
+    color: aliceblue;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
+    position: fixed;  /* it remains fixed this is how we keep our navbar fixed at the top*/ 
+    top: 0;
+    right: 200px;;
+}
+
+
+#div5{
+    color: pink;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
+    position: sticky;   /* see the html page to study its function */
+    left: 200px;
+    top: 0;
+}

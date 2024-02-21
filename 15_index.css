@@ -1,0 +1,350 @@
+/* 
+Flex Box Model
+
+It consists of a container and flex items (items inside the flex container)
+
+two axis: - 
+    1) horizontal axis: by default it is considered as the "main axis"
+    2) vertical axis: it is considered as the "cross axis"
+
+FLEX DIRECTION:
+    1) flex-direction: row; (default)
+    -->
+    main axis = x-axis
+    cross axis = y-axis
+    it means that the items will be arranged row wise
+
+    2) flex-direction: row-reverse;
+    -->
+    main axis = x-axis
+    cross axis = y-axis
+    it means that the items will be arranged row wise but in reverse order
+
+    3) flex-direction: column;
+    -->
+    main axis = y-axis
+    cross axis = x-axis
+    it means that the items will be arranged column wise
+
+    4) flex-direction: column-reverse;
+    -->
+    main axis = y-axis
+    cross axis = x-axis
+    it means that the items will be arranged column wise but in reverse order
+
+
+FLEX PROPERTIES FOR CONTAINER:
+
+    1) justify-content - it sets the alignment along the main axis
+
+        Main Axis = x
+
+        (a) flex-start: content shifted to left
+        (b) flex-end: content shifted to right
+        (c) center: content shifted to center
+        (d) space-evenly: it will set the content in such a way that there will be even space between them and around them.
+        (e) space-between: it will set the content in such a way that there will be even space between them.
+        (f) space-around: it will set the content in such a way that the space between them will be same and the space at the start and end will be saem
+
+        Main Axis = y
+
+        (a) flex-start: content shifted to top
+        (b) flex-end: content shifted to down
+        (c) center: content shifted to middle
+        (d) space-evenly: it will set the content in such a way that there will be even space between them and around them.
+        (e) space-between: it will set the content in such a way that there will be even space between them.
+        (f) space-around: it will set the content in such a way that the space between them will be same and the space at the top and down will be same
+
+    2) flex-wrap - it will set whether there will be any wrapping of content or not
+
+*/
+
+body{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+#container1{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+}
+
+#container2{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row-reverse;
+}
+
+#container3{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+}
+
+#container4{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column-reverse;
+}
+
+#container5{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#container6{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#container7{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container8{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#container9{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container10{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#container11{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#container12{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#container13{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container14{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#container15{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container16{
+    border: black 2px solid;
+    display: flex;
+    height: 200px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container17{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#container18{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container19{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+#container20{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#container21{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#container22{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+div{
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    border: black 2px solid;
+}
+
+#div1{
+    background-color: aqua;
+}
+
+#div2{
+    background-color:aquamarine;
+}
+
+#div3{
+    background-color:cadetblue;
+}
+
+#div4{
+    background-color:steelblue;
+}
+
+#div5{
+    background-color:slategrey;
+}
+
+
+#div6{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+#div7{
+    background-color:aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+#div8{
+    background-color:cadetblue;
+    width: 200px;
+    height: 200px;
+}
+
+#div9{
+    background-color:steelblue;
+    width: 200px;
+    height: 200px;
+}
+
+#div10{
+    background-color:slategrey;
+    width: 200px;
+    height: 200px;
+}

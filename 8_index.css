@@ -1,0 +1,64 @@
+/* video
+Display Property
+
+display: inline / block / inline-block / none;
+
+"inline" - takes only space required by the element (no margin/no padding)
+
+"block" - takes full space available in width
+
+"inline-block" - similar to inline but we can set margin and padding
+
+"none" - to remove element from document flow
+
+
+Block level Elements: -
+
+<address>  <article>  <aside>  <blockquote>  <canvas>  <dd>  <div>  <dl>
+<dt>  <fieldset>  <figcaption>  <figure>  <footer>  <form>  <h1>-<h6> <header>  <hr>  <li>  <main>  <nav>  <noscript>  <ol>  <p>  <pre>  <section> <table>  <tfoot>  <ul>  <video>
+
+
+Inline level elements: -
+<a>   <abbr>  <acronym>  <b>  <bdo>  <big>  <br>  <button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>  <kbd>  <label>  <map>  <object>  <output>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>
+
+Drawback of Inline display: -
+No margin will be set at top and bottom even if margin is given on those sides then inline-block comes to play
+
+*/
+
+/* div{
+    background-color: aqua;
+    display: block;
+}
+
+button{
+    display: block;
+} */
+
+#box1{
+    background-color:aqua;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;  
+    visibility: hidden; /* when Visibility is set to none  space for the element is reserved. But for display set to none no space is reserved or blocked for the element */
+}
+
+#box2{
+    background-color:aquamarine;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: none;
+}
+
+#box3{
+    background-color:cornflowerblue;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+}

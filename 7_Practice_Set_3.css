@@ -1,0 +1,54 @@
+/* Practice Set - 3 */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Question - 1 starts here */
+/* #Q1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+/* Question - 1 ends here */
+
+
+
+/* Question - 2 starts here */
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+#logo{
+    font-size: 25px;
+    color: rgb(222, 148, 9);
+}
+
+#acc{
+    color: white;
+    margin-left: 200px;
+}
+
+#cart{
+    color: white;
+    margin-left: 200px;
+}
+
+#cont{
+    color: white;
+    margin-left: 200px;
+}
+
+#search{
+    margin-left: 200px;
+}
+
+#btn{
+    padding: 3px;
+    color: white;
+    background-color: rgb(222, 148, 9);
+}
+/* Question - 2 ends here */

@@ -1,0 +1,11 @@
+div{
+    position: fixed;
+    right: 0;
+    text-align: center;
+    color: aquamarine;
+    border: red 5px solid;
+    height: 350px;
+    width: 350px;
+    background-image: url("images/nature.avif");
+    background-size: cover;
+}

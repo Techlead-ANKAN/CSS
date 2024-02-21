@@ -1,0 +1,43 @@
+/* CSS File [ Note: - CSS starts reading your stylesheet from above so the most recent style will be at higher priority and will be implied 
+
+Syntax: -
+
+<selector> {
+    <property> : <value>;
+}
+
+Types of selectors: -
+
+1) Universal Selector - the style will be set to the whole html file
+*{
+
+}
+
+2) Element selector - the style will be set to a particular portion
+<element>{
+
+}
+
+3) Id Selector - the style will be set that particular id
+<#id>{
+
+}
+
+4) Class Selector - the style will set to that class
+<.class>{
+
+}
+*/
+
+
+#h3_id{
+    color:bisque;  /* color property */
+}
+
+body{
+    background-color:#f0ffff;  /* hex coloring system */
+}
+
+.click_class{
+    color:rgb(255, 0, 0);  /* rgb coloring system */
+}

@@ -1,0 +1,13 @@
+/* 
+Alpha Channel (opacity 0 to 1) - It sets the opacity fo the color
+color: rgba(red, green, blue, alpha);
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.3);
+}

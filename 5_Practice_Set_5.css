@@ -1,0 +1,23 @@
+/* Question - 2 starts here  */
+*{
+    font-family: 'Times New Roman';
+}   
+/* Question - 2 ends here  */
+
+/* Question - 1 starts here  */
+h1{
+    text-transform: capitalize;
+    text-align:center;
+}
+/*  Question - 1 ends here */
+
+
+/* Question - 3 starts here */
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
+/* Question - 3 ends here  */ 

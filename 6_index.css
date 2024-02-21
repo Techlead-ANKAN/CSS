@@ -1,0 +1,39 @@
+h1{
+    background-color: yellow;
+    height: 75px;   /* by default height sets the content area height of the element */
+    width: 200px;  /*  by default width sets the content area width of the element */
+    border-width: 5px;
+    border-style: dashed;   /* these are the border styles there are many*/
+    border-color: red;  /* by default border color is  set to black*/
+    border-radius: 20px;   /*border radius is used for rounding the corners of the box */
+    /* border-radius: 50%; another way for creatinf circles or rounded shapes*/
+    text-align: center;  /* in this case the heading will be centered with respect to the box*/
+
+}
+
+p{
+    background-color: pink;
+    height: 100px;  /* by default height sets the content area height of the element */
+    /* width: 100px   by default width sets the content area width of the element */
+    border-width: 5px;
+    border-style: dashed;   /* these are the border styles there are many*/
+    border-color: purple;  /* by default border color is  set to black*/
+    text-align: center;  /* in this case the heading will be centered with respect to the box*/
+    padding-left: 30px; /*padding is the gap between the box area and the content area*/
+    padding-top: 30px;
+    padding-right: 30px;
+    /* padding: top right bottom left; shorthand way of padding */
+}
+
+div{
+    background-color: aquamarine;
+    height: 100px;   /* by default height sets the content area height of the element */
+    width: 100px;   /* by default width sets the content area width of the element */
+    
+    /* "border" (shorthand) */
+    border: 5px dotted red;
+
+    margin-top: 50px; /* margin is the distance between two boxes*/
+    margin-left: 50px;
+    /* margin: top right bottom left;   shorthand way of writing amrgin*/
+}

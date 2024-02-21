@@ -1,0 +1,34 @@
+/* Relative Units in CSS: -
+    1) Percentage %  - It is often used to define a size as relative to an element's parent object
+
+    2) em -  Relative to the font size of the parent
+    
+    3) rem - Relative to the font size of the root element
+
+    4) viewpot height (vh) - relative to the viewport height
+    4) viewpot width (vw) - relative to the viewport width
+*/
+
+#outer{     /* parent element */
+    background-color: rgb(255, 127, 127);
+    height: 200px;
+    width: 200px;
+    font-size: 12px;
+}
+
+#inner{   /* child element */
+    background-color: aqua;
+    height: 30%;
+    width: 30%;
+
+    font-size: 2em;    /* it means 2 times of parent font size */
+    height: 3em;   /* It means that the height will be 2 times of itself's font size */
+    width: 7rem; /* It means that the width will be 7 times of root's font size */
+}
+
+
+#box{
+    background-color: blueviolet;
+    height: 75vh;   /* It means it is covering 75% of the viewport height */
+    width: 60vh;    /* It means it is covering 60% of the viewport width */
+}

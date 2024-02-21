@@ -1,0 +1,26 @@
+body {
+    text-align: left;
+}
+
+h1 {
+    text-decoration: underline;
+    /* text-decoration: none/underline/overline/line-through */
+}
+
+p {
+    text-align: center;
+    /* text-align: left/center/right */
+}
+
+h2 {
+    font-weight: bold;
+    /* font weight: normal/bold/bolder/lighter */
+}
+
+h3{
+    font-weight: 900; /* font-weight: 100-900 */
+    font-family: cursive; /* font-family property - search for font styles or families in google */
+
+    /* font-family: <1>, <2> , <3> , <4>,.....;  which means if for any reason 1 font is not possible then show font 2 and so on (this is known as "Fall Back Mechanism")*/
+    
+}
