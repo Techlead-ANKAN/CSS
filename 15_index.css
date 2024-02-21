@@ -57,7 +57,24 @@ FLEX PROPERTIES FOR CONTAINER:
 
     2) flex-wrap - it will set whether there will be any wrapping of content or not
 
-*/
+        (a) nowrap: No Wrapping
+        (b) wrap: Wrapping
+        (c) wrap-reverse: Reversse Wrapping
+
+    3) align-items - It allows you to set the items across the "cross-axis"
+
+        Cross Axis - y
+
+        (a) flex-start: align from the top
+        (b) flex-end: align from the end
+        (c) center: align at the center
+        
+        Cross Axis - x
+
+        (a) flex-start: align from the left
+        (b) flex-end: align from the right
+        (c) center: align at the center 
+*/  
 
 body{
     text-align: center;
@@ -289,6 +306,39 @@ h2{
     margin-left: 22.5vw;
     flex-direction: column;
     flex-wrap: wrap-reverse;
+}
+
+#container23{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#container24{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+#container25{
+    border: black 2px solid;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 22.5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 div{
