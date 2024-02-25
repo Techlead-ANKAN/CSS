@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: rgb(174, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#outer{
+    margin-top: 100px;
+    margin-left:100px;
+    background-color: rgb(123, 123, 232);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    background-color: rgb(149, 214, 236);
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* Q3) Which one has higher priority "align-items" or "align-self" ?
+---->  Align-self has higher priority
+*/

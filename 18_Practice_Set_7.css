@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    background-color: aqua;
+}
+
+#div1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    height: 150px;
+    width: 500px;
+    background-color: blueviolet;
+}
+
+@media(max-width: 300px){
+    #div1{
+        background-color: green;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    #div1{
+        background-color: pink;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px){
+    #div1{
+        background-color: red;
+    }
+}
+
+@media(min-width: 600px){
+    #div1{
+        background-color: blue;
+    }
+}
