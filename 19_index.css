@@ -1,4 +1,5 @@
 body{
+    background-color: white;    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,4 +139,21 @@ body{
 #box7:hover{
     font-size: 30px;
     background-color: red;
+}
+
+
+#box8{
+    height: 200px;
+    width: 650px;
+    border: 5px solid black ;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s ease-in 2s;
+}
+
+#box8:hover{
+    font-size: 30px;
+    background-color: rgb(88, 201, 133);
 }

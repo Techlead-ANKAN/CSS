@@ -1,0 +1,285 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img_box{
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url("images/3d_axes.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+}
+
+
+#container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 1400px;
+    border: 5px solid black;
+}
+
+
+#box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 1.5s ease-in;
+}
+
+#box1:hover{
+    rotate: z 45deg;
+}
+
+#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 1.75s ease-in;
+    
+}
+
+#box2:hover{
+    rotate: z 90deg;
+}
+
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 2s ease-in;
+}
+
+#box3:hover{
+    rotate: z 180deg;
+}
+
+#box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 2.5s ease-in;
+}
+
+#box4:hover{
+    rotate: z 270deg;
+}
+
+#box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 3s ease-in;
+}
+
+#box5:hover{
+    rotate: z 360deg;
+}
+
+
+
+#container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 1400px;
+    border: 5px solid black;
+}
+
+
+#box6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 1.5s ease-in;
+}
+
+#box6:hover{
+    rotate: x 45deg
+}
+
+#box7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 1.75s ease-in;
+}
+
+#box7:hover{
+    rotate: x 90deg
+}
+
+#box8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 2s ease-in;
+}
+
+#box8:hover{
+    rotate: x 180deg
+}
+
+#box9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 2.5s ease-in;
+}
+
+#box9:hover{
+    rotate: x 270deg
+}
+
+#box10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 3s ease-in;
+}
+
+#box10:hover{
+    rotate: x 360deg
+}
+
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 1400px;
+    border: 5px solid black;
+}
+
+
+#box11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 1.5s ease-in;
+}
+
+#box11:hover{
+    rotate: y 45deg
+}
+
+#box12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 1.75s ease-in;
+}
+
+#box12:hover{
+    rotate: y 90deg
+}
+
+#box13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 2s ease-in;
+}
+
+#box13:hover{
+    rotate: y 180deg
+}
+
+#box14{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 2.5s ease-in;
+}
+
+#box14:hover{
+    rotate: y 270deg
+}
+
+#box15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    transition: rotate 3s ease-in;
+}
+
+#box15:hover{
+    rotate: y 360deg
+}
+
