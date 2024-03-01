@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#man{
+    height: 300px;
+    width: 800px;
+    border: 5px solid black;
+    animation-name: man_animation;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes man_animation{
+    form{
+        border-color: black;
+    }
+    to{
+        border-color: red;
+    }
+}
+
+
+
+th, td, table{
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 700;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+
+
+/* #box1{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 0%;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes animation{
+    form{
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    to{
+        border-radius: 50%;
+        background-color: black;
+    }
+} */
+
+big{
+    margin-top: 100px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+#container{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border: 5px solid black;
+}
+
+#example{
+    margin-top: 100px ;
+    margin-bottom: 100px ;
+    height: 150px;
+    width: 150px;
+    border-radius: 0%;
+    align-items: flex-start;
+    background-color: blue;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateX(0);
+}
+
+
+@keyframes animation{
+    form{
+        border-radius: 0%;
+        background-color: aqua;
+        transform: translateX(-50px);
+    }
+    to{
+        border-radius: 50%;
+        background-color: black;
+        transform: translateX(50px);
+    }
+}
+

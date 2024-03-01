@@ -283,3 +283,60 @@ body{
     rotate: y 360deg
 }
 
+
+
+#img1{
+    margin-top: 50px;
+    transition: all 2s linear; 
+}
+
+#img1:hover{
+    transform: scaleX(2); 
+}
+
+#img2{
+    margin-top: 50px;
+    transition: all 2s linear; 
+}
+
+#img2:hover{
+    transform: scaleY(0.5); 
+}
+
+#img3{
+    margin-top: 50px;
+    transition: all 2s linear; 
+}
+
+#img3:hover{
+    transform: translateX(50px); 
+}
+
+#img4{
+    margin-top: 50px;
+    transition: all 2s linear; 
+}
+
+#img4:hover{
+    transform: translateY(50px); 
+}
+
+#img5{
+    margin-top: 50px;
+    margin-left: 50px;
+    transition: all 1.2s linear; 
+}
+
+#img5:hover{
+    transform: translate(50px, 50px); 
+}
+
+#img6{
+    margin-top: 50px;
+    margin-left: 50px;
+    transition: all 1.2s linear; 
+}
+
+#img6:hover{
+    transform: skew(15deg, 15deg); 
+}
