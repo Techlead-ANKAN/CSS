@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;   /* This line means that if there is a border or a padding to a content then its thickness must count in the actual height and width of the content (example: height and width of a div is 100px and border-thickness is 5px which means real height and width of the div is 95px. */
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-logo{
+    /* padding: 3px; */
+    height: 50px;
+    width: 113px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+
+.border:hover{
+    padding: 2px;
+    border: 1.5px solid white;
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+    padding: 5.5px;
+    background-image: url("amazon_logo.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+
+/* Address */
+
+.nav-address{
+    height: 50px;
+    width: 80px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;;
+}
+
+
+.nav-search{
+    display: flex;
+}
