@@ -8,9 +8,10 @@
 
 .navbar{
     height: 60px;
-    background-color: #0f1111;
+    background-color: #121921;
     color: white;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -27,7 +28,7 @@
 
 
 .border:hover{
-    padding: 2px;
+    padding: 3.5px;
     border: 1.5px solid white;
 }
 
@@ -57,10 +58,12 @@
     color: #cccccc;
     font-size: 0.8rem;
     margin-left: 15px;
+    background-color: #121921;
 }
 
 .add-sec{
     font-size: 1rem;
+    background-color: #121921;
     margin-left: 3px;
 }
 
@@ -69,6 +72,198 @@
 }
 
 
+
+/* search */
+
 .nav-search{
     display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 537px;
+    height: 38px;
+    border-radius: 4px;
 }
+
+.nav-search:hover{
+    border: 3.5px solid #FEBD69;
+    border-radius: 7.5px;
+}
+
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #e6e6e6;
+    width: 55px;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none; 
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+}
+
+
+.search-icon{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FEBD69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+/* acc */
+
+.nav-acc{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #121921;
+    justify-content: center;
+}
+
+span{
+    font-size: .8rem;
+    font-weight: 450;
+
+}
+
+
+
+p{
+    border: none;
+    background-color: #121921;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.nav-cart i{
+    font-size: 35px;
+    
+}
+
+.cart{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.ret-ord-border{
+    border: 1.5px solid transparent;
+}
+
+
+.ret-ord-border:hover{
+    padding: 9px;
+    border: 1.5px solid white;
+}
+
+
+/* Lower panel under navbar */
+
+.nav-low-panel i{
+    font-size: 10px;
+}
+
+.nav-low-panel{
+    height: 40px;
+    background-color: #232F3F;
+    display: flex;
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+.low-panel-border{
+    border: 1.5px solid transparent;
+}
+
+
+.low-panel-border:hover{
+    /* padding: 9px; */
+    border: 0.75px solid white;
+}
+
+.low-panel-all{
+    height: 37px;
+    width: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    background-color: #232F3F;
+    border: none;
+}
+
+.low-panel-deals{
+    height: 37px;
+    width: 102px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:nowrap;
+}
+
+.low-panel-service{
+    height: 37px;
+    width: 128px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:nowrap;
+}
+
+.low-panel-registry{
+    height: 37px;
+    width: 70px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:nowrap;
+}
+
+.low-panel-gift{
+    height: 37px;
+    width: 81px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:nowrap;
+}
+
+.low-panel-sell{
+    height: 37px;
+    width: 41px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:nowrap;
+}
+
