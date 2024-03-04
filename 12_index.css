@@ -7,7 +7,7 @@
 
     4) fixed: position is relative to the browser (removed from the flow).
 
-    5) sticky: position based on usetr's scroll position.
+    5) sticky: position based on user's scroll position.
 
   Z-index: - It decides the stack level of the elements when the elements are overlapping. (By default Z-index: 0, it can be set to -1/-2/... or 1/2/.... for priority
 */

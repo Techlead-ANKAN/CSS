@@ -267,3 +267,22 @@ p{
     text-wrap:nowrap;
 }
 
+/* hero  section */
+
+.hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.in-hero{
+    height: 30px;
+    width: 95%;
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    background-color: white;
+}
