@@ -305,6 +305,68 @@ a{
     /* border: 2px solid black; */
     height: 380px;
     width: 300px;
+    border-radius: 5px;
+}
+
+.box1-img{
+    height: 280px;
+    width: 275px;
+    background-image: url("box1.jpg");
+    background-size: cover;
+    margin: 11px;
+}
+
+.box2-img{
+    height: 280px;
+    width: 275px;
+    background-image: url("box2.jpg");
+    background-size: cover;
+    margin: 11px;
+}
+
+.box3{
+    background-color: white;    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.box3-img{
+    margin-top: 15px;
+}
+
+.tempo{
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.temp{
+    height: 100px;
+    width: 150px;
+    /* border: 2px solid black; */
+}
+
+.box3-imga{
+    background-image: url("box3a.jpg");
+    background-size: 150px 100px    ;
+}
+
+
+.box3-imgb{
+    background-image: url("box3b.jpg");
+    background-size: 150px 100px    ;
+}
+
+.box3-imgc{
+    background-image: url("box3c.jpg");
+    background-size: 150px 100px    ;
+}
+
+.box3-imgd{
+    background-image: url("box3d.jpg");
+    background-size: 150px 100px    ;
 }
 
 .box4{
@@ -337,3 +399,5 @@ a{
     margin-bottom: 15px;
     margin-left: 15px;
 }
+
+
