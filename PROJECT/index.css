@@ -5,6 +5,9 @@
     border: border-box;   /* This line means that if there is a border or a padding to a content then its thickness must count in the actual height and width of the content (example: height and width of a div is 100px and border-thickness is 5px which means real height and width of the div is 95px. */
 }
 
+body{
+    background-color: #D4A3D2;
+}
 
 .navbar{
     height: 60px;
@@ -272,7 +275,7 @@ p{
 .hero-section{
     background-image: url("hero.jpg");
     background-size: cover;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -286,7 +289,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 a{
@@ -303,8 +306,8 @@ a{
 
 .box{
     /* border: 2px solid black; */
-    height: 380px;
-    width: 300px;
+    height: 400px;
+    width: 340px;
     border-radius: 5px;
 }
 
@@ -313,12 +316,12 @@ a{
     width: 275px;
     background-image: url("box1.jpg");
     background-size: cover;
-    margin: 11px;
+    margin-left: 25px;
 }
 
 .box2-img{
     height: 280px;
-    width: 275px;
+    width: 300px;
     background-image: url("box2.jpg");
     background-size: cover;
     margin: 11px;
@@ -337,6 +340,7 @@ a{
 
 .tempo{
     margin-top: 30px;
+    margin-left: 10px;
     height: 100px;
     width: 100%;
     /* border: 2px solid black; */
@@ -381,7 +385,7 @@ a{
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .box4-img{
@@ -389,7 +393,7 @@ a{
     width: 275px;
     background-image: url("box_4.jpg");
     background-size: cover;
-    margin: 11px;
+    margin-left: 25px;
 }
 
 .box4-shop-now{
@@ -400,4 +404,305 @@ a{
     margin-left: 15px;
 }
 
+
+.box5-img{
+    height: 280px;
+    width: 290px;
+    background-image: url("box5.jpg");
+    background-size: cover;
+    margin-left: 25px;
+}
+
+.box6-imga{
+    background-image: url("box6a.jpg");
+    background-size: 150px 100px    ;
+    margin-right: 15px;
+}
+.box6-imgb{
+    background-image: url("box6b.jpg");
+    background-size: 150px 100px    ;
+    margin-right: 15px;
+}
+.box6-imgc{
+    background-image: url("box6c.jpg");
+    background-size: 150px 100px    ;
+    margin-right: 15px;
+}
+.box6-imgd{
+    background-image: url("box6d.jpg");
+    background-size: 150px 100px    ;
+    margin-right: 15px;
+}
+
+
+.box7-img{
+    height: 280px;
+    width: 290px;
+    background-image: url("box7.jpg");
+    background-size: cover;
+    margin-left: 25px;
+}
+
+
+.box8-img{
+    height: 280px;
+    width: 290px;
+    background-image: url("box8.jpg");
+    background-size: cover;
+    margin-left: 25px;
+}
+
+
+big{
+    margin-bottom: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.video{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #D4A3D2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-panel{
+    margin-top: 15px;
+    margin-left: 38px;
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.p{
+    border: 2px solid white;
+    height: 100%;
+    width: 220px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pr{
+    /* border: 2px solid blue; */
+    height: 250px;
+}
+
+.dt{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    /* border: 2px solid red;   */
+}
+
+.prod1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1-dt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.prod2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.p2-dt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3-dt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.prod4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p4-dt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.prod5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p5-dt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.prod6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p6-dt{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.product-panel2{
+    display: flex;
+    flex-direction: column; 
+    width: 95%;
+    margin-left: 38px;
+    height: 270px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.books-panel{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.book1{
+    height: 200px;
+    width: 133px;
+    background-image: url("book1.jpg");
+}
+
+.book1{
+    height: 200px;
+    width: 200px;
+    background-image: url("book2.jpg");
+}
+
+.book3{
+    height: 200px;
+    width: 133px;
+    background-image: url("book3.jpg");
+}
+
+.book4{
+    height: 200px;
+    width: 147px;
+    background-image: url("book4.jpg");
+}
+
+.book5{
+    height: 200px;
+    width: 135px;
+    background-image: url("book5.jpg");
+}
+
+.book6{
+    height: 200px;
+    width: 132px;
+    background-image: url("book6.jpg");
+}
+
+.book7{
+    height: 200px;
+    width: 133px;
+    background-image: url("book7.jpg");
+}
+
+.book8{
+    height: 200px;
+    width: 147px;
+    background-image: url("book8.jpg");
+}
+
+.book9{
+    height: 200px;
+    width: 133px;
+    background-image: url("book9.jpg");
+}
+
+
+
+.sign-panel{
+    height: 70px;
+    width: 1452px;
+    margin-left: 38px;
+    margin-bottom: 38px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 222px;
+    height: 28px;
+    margin-top: 5px;
+    background-color: #FEC52E;
+    border: 1px solid #FEBD69;
+    border-radius: 4px;
+}
+
+
+.top{
+    height: 49px;
+    width: 100%;
+    background-color: #364759;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links{
+    background-color: #232F3E;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+.p{
+    background-color: #232F3E;
+    color: #DDDDDD;
+    border: none;
+    margin: 10px;
+}
 
