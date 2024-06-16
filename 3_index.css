@@ -22,5 +22,4 @@ h3{
     font-family: cursive; /* font-family property - search for font styles or families in google */
 
     /* font-family: <1>, <2> , <3> , <4>,.....;  which means if for any reason 1 font is not possible then show font 2 and so on (this is known as "Fall Back Mechanism")*/
-    
 }

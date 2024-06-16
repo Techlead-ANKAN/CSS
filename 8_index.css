@@ -14,12 +14,72 @@ display: inline / block / inline-block / none;
 
 Block level Elements: -
 
-<address>  <article>  <aside>  <blockquote>  <canvas>  <dd>  <div>  <dl>
-<dt>  <fieldset>  <figcaption>  <figure>  <footer>  <form>  <h1>-<h6> <header>  <hr>  <li>  <main>  <nav>  <noscript>  <ol>  <p>  <pre>  <section> <table>  <tfoot>  <ul>  <video>
+1) <address>  
+2) <article>  
+3) <aside>  
+4) <blockquote>  
+5) <canvas>  
+6) <dd>  
+7) <div>  
+8) <dl>
+9) <dt>  
+10) <fieldset>  
+11) <figcaption>  
+12) <figure>  
+13) <footer>  
+14) <form>  
+15) <h1>-<h6> 
+16) <header>  
+17) <hr>  
+18) <li>  
+19) <main>  
+20) <nav>  
+21) <noscript>  
+22) <ol>  
+23) <p>  
+24) <pre>  
+25) <section> 
+26) <table>  
+27) <tfoot>  
+28) <ul>  
+29) <video>
 
 
 Inline level elements: -
-<a>   <abbr>  <acronym>  <b>  <bdo>  <big>  <br>  <button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>  <kbd>  <label>  <map>  <object>  <output>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>
+
+1) <a>   
+2) <abbr>  
+3) <acronym>  
+4) <b>  
+5) <bdo>  6) <big>  
+7) <br>  
+8) <button>  
+9) <cite>  
+10) <code>  
+11) <dfn>  
+12) <em>  
+13) <i>  
+14) <img>  
+15) <input>  
+16) <kbd>  
+17) <label>  
+18) <map>  
+19) <object>  
+20) <output>  
+21) <q>  
+22) <samp>  
+23) <script>  
+24) <select>  
+25) <small>  
+26) <span>  
+27) <strong>  
+28) <sub>  
+29) <sup>  
+30) <textarea>  
+31) <time>  
+32) <tt>  
+33) <var>
+
 
 Drawback of Inline display: -
 No margin will be set at top and bottom even if margin is given on those sides then inline-block comes to play

@@ -15,6 +15,7 @@ contain - this is will prioritize the display of the image which means that supp
     height: 200px;
     width: 356px;
     display: inline-block;
+    color: white;
 }
 
 
@@ -22,6 +23,7 @@ contain - this is will prioritize the display of the image which means that supp
     background-image: url("images/pic2.jpg");
     /* background-color: aquamarine; */
     height: 200px;
+    color: white;
     width: 356px;
     display: inline-block;
 }

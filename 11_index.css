@@ -18,8 +18,8 @@
 
 #inner{   /* child element */
     background-color: aqua;
-    height: 30%;
-    width: 30%;
+    height: 50%;
+    width: 50%;
 
     font-size: 2em;    /* it means 2 times of parent font size */
     height: 3em;   /* It means that the height will be 2 times of itself's font size */

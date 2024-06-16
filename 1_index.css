@@ -13,12 +13,12 @@ Types of selectors: -
 
 }
 
-2) Element selector - the style will be set to a particular portion
+2) Element selector - the style will be set to that ele
 <element>{
 
 }
 
-3) Id Selector - the style will be set that particular id
+3) Id Selector - the style will be set to that particular id
 <#id>{
 
 }
